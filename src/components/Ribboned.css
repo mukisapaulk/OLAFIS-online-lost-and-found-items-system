@@ -1,0 +1,18 @@
+.ribbon {
+    position: absolute;
+    top: 12px;
+    left: 180px;
+    padding: 2px 8px; /* Adjust padding for size */
+    font-size: 12px; /* Adjust font size as needed */
+    background-color: rgb(22, 163, 74); 
+   
+    border-radius: 10px;
+    
+}
+
+.ribbon span {
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1;
+}

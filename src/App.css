@@ -1,0 +1,57 @@
+
+
+.bg{
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+
+
+}
+.dots{
+  transform: rotate(90deg);
+  font-weight: bold;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+span{
+  font-size: 16px;
+  color: black;
+  height: 20px;
+  width: 20px;
+  
+  margin-left: 8px;
+  padding: 4px;
+  border-radius: 10px;
+}
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999;
+}
+.full-width-content {
+  width: 100%;
+
+}
+
+/* Media query to apply the class only on larger screens */
+@media (min-width: 768px) {
+  .full-width-content {
+    width: 100%;
+  }
+}
+ol, ul {
+  list-style-type: disc;
+  /* Other reset styles */
+}
+
+
+
